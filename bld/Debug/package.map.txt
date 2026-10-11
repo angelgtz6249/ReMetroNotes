@@ -1,0 +1,11 @@
+[Files]
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\AppxManifest.xml" "AppxManifest.xml"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\default.html" "default.html"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\logo.scale-100.png" "images\logo.scale-100.png"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\smalllogo.scale-100.png" "images\smalllogo.scale-100.png"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\splashscreen.scale-100.png" "images\splashscreen.scale-100.png"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\Square70x70Logo.scale-100.png" "images\Square70x70Logo.scale-100.png"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\storelogo.scale-100.png" "images\storelogo.scale-100.png"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\js\default.js" "js\default.js"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\css\default.css" "css\default.css"
+"c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\resources.pri" "resources.pri"

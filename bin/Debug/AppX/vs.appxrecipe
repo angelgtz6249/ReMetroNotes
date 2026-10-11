@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3MUEEC3</Machine>
+    <WindowsUser>Angel</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>20d44481-7e55-4d70-a847-f66274b1d375</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Angel</PackageIdentityPublisher>
+    <IntermediateOutputPath>c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>312A7EC37DF02B01DC19A92BF319F5E8783E7DDEE5C2E0DFFC7957ED2AB4BE8B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20d44481-7e55-4d70-a847-f66274b1d375_1.0.0.0_neutral__bpa53wck4h50y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>20d44481-7e55-4d70-a847-f66274b1d375_bpa53wck4h50y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>20d44481-7e55-4d70-a847-f66274b1d375</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Angel</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:41:09.296</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2026-10-11T04:06:54.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:20:27.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:20:34.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:20:24.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:20:31.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:20:53.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2026-10-11T04:07:53.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2026-10-11T04:07:09.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-10-11T04:41:09.164</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

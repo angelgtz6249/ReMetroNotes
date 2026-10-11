@@ -1,0 +1,177 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#editor-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#textArea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    padding: 25px;
+    font-size: 33px;
+    font-family: Consolas, monospace;
+    outline: none;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+
+/* Menú Contextual / Flyout */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Franja superior libre para activar el AppBar con clic derecho */
+#topAppBarTriggerArea {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 25px;
+    z-index: 999;
+    background: transparent;
+}
+
+#editor-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+#textArea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    padding: 25px;
+    font-size: 33px;
+    font-family: Consolas, monospace;
+    outline: none;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+
+/* Menú Contextual / Flyout */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.menu-list button {
+    text-align: left;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.menu-list button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos de la Charms Bar (Cabecera Naranja y Cuerpo Blanco) */
+.win-settings-flyout .win-header {
+    background-color: #d35400 !important;
+    color: #ffffff !important;
+}
+
+/* Modal personalizado para la opción Nuevo */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s ease-in-out;
+}
+
+.modal-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-box {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Temas del Editor */
+body.theme-dark {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+body.theme-dark #textArea {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+body.theme-light {
+    background-color: #ffffff;
+    color: #000000;
+}
+body.theme-light #textArea {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.theme-amoled {
+    background-color: #000000;
+    color: #ffffff;
+}
+body.theme-amoled #textArea {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.theme-liquid {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: #ffffff;
+}
+body.theme-liquid #textArea {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+    backdrop-filter: blur(12px);
+}

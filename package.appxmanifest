@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="20d44481-7e55-4d70-a847-f66274b1d375" Version="1.0.0.0" Publisher="CN=Angel" />
+  <Properties>
+    <DisplayName>ReMetroNotes</DisplayName>
+    <PublisherDisplayName>Angel Gtz</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="ReMetroNotes" Description="ES: ReMetroNotes, una app de notas sencilla, rapida y facil de usar EN: ReMetroNotes, a simple, fast, and easy-to-use notes app. RU: ReMetroNotes — простое, быстрое и удобное приложение для заметок. EO: ReMetroNotes, simpla, rapida kaj facile uzebla not-aplikaĵo." ForegroundText="light" BackgroundColor="#D35400" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile Square70x70Logo="images\Square70x70Logo.png" ShortName="ReMN" DefaultSize="square150x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="portrait" />
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="portraitFlipped" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+      <Extensions>
+        <Extension Category="windows.fileSavePicker">
+          <FileSavePicker>
+            <SupportedFileTypes>
+              <FileType>.txt</FileType>
+            </SupportedFileTypes>
+          </FileSavePicker>
+        </Extension>
+        <Extension Category="windows.fileOpenPicker">
+          <FileOpenPicker>
+            <SupportedFileTypes>
+              <FileType>.txt</FileType>
+            </SupportedFileTypes>
+          </FileOpenPicker>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>

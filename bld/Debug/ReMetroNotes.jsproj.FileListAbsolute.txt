@@ -1,0 +1,15 @@
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\AppxManifest.xml
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\ReMetroNotes.build.appxrecipe
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\priconfig.xml
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\priconfig.xml.intermediate
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\layout.resfiles
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\layout.resfiles.intermediate
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\resources.resfiles
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\resources.resfiles.intermediate
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\pri.resfiles
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\pri.resfiles.intermediate
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\qualifiers.txt
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\qualifiers.txt.intermediate
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bld\Debug\ProjectArchitectures.txt
+c:\users\angel\documents\visual studio 2015\Projects\ReMetroNotes\ReMetroNotes\bin\Debug\resources.pri
